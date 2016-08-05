@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="olympicApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Olympian Picker</title>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="vendors/angular-route/angular-route.min.js"></script>
+    <script src="js/client.js"></script>
+    <base href="/" />
+  </head>
+  <body>
+    <header>
+      <h1>Olympic Marketing Campaign Picker</h1>
+    </header>
+      <a href="/fencing"><button class="btn btn-lg btn-primary">Fencing</button></a>
+      <a href="/mPentath"><button class="btn btn-lg btn-primary">Modern Pentathlon</button></a>
+      <a href="/badminton"><button class="btn btn-lg btn-primary">Badminton</button></a>
+      <a href="/boxing"><button class="btn btn-lg btn-primary">Boxing</button></a>
+      <a href="/canoe"><button class="btn btn-lg btn-primary">Canoe/Kayak</button></a>
+
+    <div ng-view>
+
+    </div>
+
+  </body>
+</html>
